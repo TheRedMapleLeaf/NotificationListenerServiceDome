@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--弹出提示窗-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@color/colorTransparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--自定义EditText-->
+    <declare-styleable name="CenterEdittext">
+        <attr name="isCenter" format="boolean" />
+        <attr name="isShowLeft" format="boolean" />
+        <attr name="isShowHint" format="boolean" />
+        <attr name="drawableIcon" format="reference" />
+        <attr name="isOpen" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:checked="true"
+        android:icon="@drawable/icon_home"
+        android:title="首页" />
+    <item
+        android:icon="@drawable/icon_list"
+        android:title="交易列表" />
+    <item
+        android:icon="@drawable/icon_mine"
+        android:title="我的" />
+</menu>
